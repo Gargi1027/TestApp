@@ -1,0 +1,14 @@
+C:\Users\Gargi Thakker\TestApp\TestApp.API\bin\Debug\netcoreapp2.2\TestApp.API.deps.json
+C:\Users\Gargi Thakker\TestApp\TestApp.API\bin\Debug\netcoreapp2.2\TestApp.API.runtimeconfig.json
+C:\Users\Gargi Thakker\TestApp\TestApp.API\bin\Debug\netcoreapp2.2\TestApp.API.runtimeconfig.dev.json
+C:\Users\Gargi Thakker\TestApp\TestApp.API\bin\Debug\netcoreapp2.2\TestApp.API.dll
+C:\Users\Gargi Thakker\TestApp\TestApp.API\bin\Debug\netcoreapp2.2\TestApp.API.pdb
+C:\Users\Gargi Thakker\TestApp\TestApp.API\obj\Debug\netcoreapp2.2\TestApp.API.csprojAssemblyReference.cache
+C:\Users\Gargi Thakker\TestApp\TestApp.API\obj\Debug\netcoreapp2.2\TestApp.API.csproj.CoreCompileInputs.cache
+C:\Users\Gargi Thakker\TestApp\TestApp.API\obj\Debug\netcoreapp2.2\TestApp.API.RazorAssemblyInfo.cache
+C:\Users\Gargi Thakker\TestApp\TestApp.API\obj\Debug\netcoreapp2.2\TestApp.API.RazorAssemblyInfo.cs
+C:\Users\Gargi Thakker\TestApp\TestApp.API\obj\Debug\netcoreapp2.2\TestApp.API.AssemblyInfoInputs.cache
+C:\Users\Gargi Thakker\TestApp\TestApp.API\obj\Debug\netcoreapp2.2\TestApp.API.AssemblyInfo.cs
+C:\Users\Gargi Thakker\TestApp\TestApp.API\obj\Debug\netcoreapp2.2\TestApp.API.RazorTargetAssemblyInfo.cache
+C:\Users\Gargi Thakker\TestApp\TestApp.API\obj\Debug\netcoreapp2.2\TestApp.API.dll
+C:\Users\Gargi Thakker\TestApp\TestApp.API\obj\Debug\netcoreapp2.2\TestApp.API.pdb
