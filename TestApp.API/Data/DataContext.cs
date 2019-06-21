@@ -9,5 +9,7 @@ namespace TestApp.API.Data
 
         //The name of DbSet will be the name of new database in SQL
         public DbSet<Value> Values { get; set; }
+
+        public DbSet<User> Users { get; set; }
     }
 }
