@@ -93,7 +93,13 @@ If we install bootstrap and font aswome, we also need to add it in angular.json 
 
 Just like dotnet has repositories to handle all the heavylifting logic code, angular has services for the same(in app folder, create _services and generate all services inside that and then add the service in the providers array in app.modules.ts)
 
+ALERTIFY JS: npm install alertifyjs --save --> Also add to angular.json-> scripts array and styles.css -> make a service to have all alertify methods and inject it where needed
 
+https://github.com/auth0/angular2-jwt for angular JWT handler-> npm install @auth0/angular-jwt
+
+Install ngx-bootstrap for more reactive angular frontend(works like JQuery)-> npm install ngx-bootstrap@3.0.1 --save
+
+Add themes using bootswatch: npm install bootswatch@4.1.1
 
 
 
