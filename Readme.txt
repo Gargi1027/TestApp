@@ -44,6 +44,7 @@ Creating appsettings token in appsettings.json: Token should be super long, rand
 
 Add [Authorize] keyword on top of controller to mandate authorized request. If the request to a particular method needs to be unauthorized, use [AllowAnonymous] keyword on that method(not the whole controller).
 Add authentication middleware to startup class
+Automapper- Map models to DTOs
 ----------------------
 DATABASE (Code First):
 ----------------------
@@ -59,6 +60,16 @@ To add/update tbales in database based on the migrations done: dotnet ef databas
 
 Retrive data from database:
 1. Inject the DataContext in the controller needed by making constructor and adding the context.
+
+If a model is updated then change to database can be made by-> DataContext File -> Add new dbset for new model(if created)
+
+run, dotnet ef migrations add 'MigrationName', to update the database (MigrationName shouldnt be in quotes)
+
+Revert database from last update: dotnet ef database update 'PrevMigrationName'-> where PrevMigrationName is the last migration name after which you want to delete migrations
+
+dotnet ef database drop for deleteing the database.
+
+Use seeding method to add data to database in bunch. Only used in development mode and need to comment out after first use. If not done so, it will keep recalling the database population everytime the code restarts.
 
 -----------------------
 Use async code for scalability:
@@ -85,7 +96,6 @@ Need to import HttpClientModule in package.json to import data from API to SPA.
 Shortcuts to navigate: alt+o=html page, alt+u=ts page 
 
 npm install rxjs@6.0.0 --save for rxjs error
-
 
 npm install bootstrap @fortawesome/fontawesome-free for installing font aswome icons and bootstrap
 
