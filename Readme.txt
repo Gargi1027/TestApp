@@ -101,6 +101,16 @@ Install ngx-bootstrap for more reactive angular frontend(works like JQuery)-> np
 
 Add themes using bootswatch: npm install bootswatch@4.1.1
 
+routes.ts for adding routes: ordering of routes is important because if wildcard is on the top then it will by default match and give wrong redirection.
+
+type a-router and complete the router link in html tags
+
+in app.component.html, remove app-home tag and add router-outlet tag instead
+
+route-guards: to prevent navigating from url: in cmd for app-spa: cd src/app/_guard -> ng g guard auth --spec=false
+
+import authguard in providers in app.module.ts 
+
 
 
 
