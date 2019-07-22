@@ -121,6 +121,10 @@ route-guards: to prevent navigating from url: in cmd for app-spa: cd src/app/_gu
 
 import authguard in providers in app.module.ts 
 
+add resolver in app folder to resolve the variables that are nullable
+
+Import the resolver to app.module.ts in the providers and routes.ts in the path
+
 
 
 
